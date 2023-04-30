@@ -1,0 +1,15 @@
+bolt_db: "bolt.db"
+
+bot_url: "https://t.me/pocket_store_endpoints_bot"
+
+message:
+  responses:
+    start: "giv me access for save your file in your pocket! click here: \n%s"
+    already_authorized: "you are already authorized!!!"
+    unknown_command: "you enter unknown command:("
+    success_save: "link successfully saved:)"
+  error:
+    default: "unknown error!!"
+    invalid_url: "this is invalid link"
+    unauthorized: "you are unauthorized for authorize write command start!"
+    unable_to_save: "unable to save this link send again!"
